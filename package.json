@@ -1,0 +1,19 @@
+{
+  "name": "crackle-pop",
+  "version": "0.0.1",
+  "description": "Prints numbers 1 to 100 (inclusive). If the number is divisible by 3, prints Crackle instead of the number. If it's divisible by 5, prints Pop. If it's divisible by both 3 and 5, prints CracklePop.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'src/**/*.test.js'",
+    "test:watch": "npm run test -- --watch",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0"
+  }
+}
